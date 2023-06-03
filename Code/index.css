@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.searchBar input{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #8696FE;
+    border-radius: 30px;
+    width: 450px;
+    /* transition: width 0.1s ease-in-out; */
+}
+
+.searchBar input:focus {
+    /* width: 100%; */
+    border: 2px solid #C4B0FF;
+    outline: none;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11009E;
+}
+
+.user-icon img{
+    padding: 10px;; 
+    height: 50px;
+}
+
+.company-logo img {
+    height: 48px;
+}
