@@ -4,34 +4,90 @@
     box-sizing: border-box;
 }
 
-.searchBar input{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    border: 2px solid #8696FE;
-    border-radius: 30px;
-    width: 450px;
-    /* transition: width 0.1s ease-in-out; */
-}
-
-.searchBar input:focus {
-    /* width: 100%; */
-    border: 2px solid #C4B0FF;
-    outline: none;
-}
-
-.header-wrapper{
+.header-wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+.swiggy-logo {
+    height: 100px;
+}
+
+.navbar-wrapper {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.cart-logo {
+    height: 45px;
+}
+
+.navbar-wrapper li {
+    display: flex;
     align-items: center;
-    background-color: #11009E;
+    padding-left: 100px;
 }
 
-.user-icon img{
-    padding: 10px;; 
-    height: 50px;
+.resto-rating {
+    background-color: #48c479;
 }
 
-.company-logo img {
-    height: 48px;
+.resto-rating i {
+    color: #fff;
+}
+
+.resto-rating span {
+    color: #fff;
+}
+
+.restaurant-card-wrapper {
+    padding: 20px;
+    border: 1px solid transparent;
+}
+
+.restaurant-card-wrapper:hover {
+    border: 1px solid rgb(241, 231, 231);
+    box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
+}
+
+.restarunt-name {
+    font-size: 17px;
+}
+
+.cuisines {
+    font-size: 13px;
+    color: #686b78;
+    margin-top: 4px;
+}
+
+
+.card-footer {
+    margin: 18px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer div {
+    font-size: 12px;
+}
+
+.resto-image {
+    width: 254px;
+    min-width: 254px;
+    height: 160px;
+}
+.resto-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+ }
+
+.body-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
 }
